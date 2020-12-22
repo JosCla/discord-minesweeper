@@ -36,7 +36,7 @@ bot.on('message', msg => {
                 msg.channel.send('mine_bot is on.');
                 break;
             case 'whoami':
-                msg.channel.send('You are: ' + user + '.');
+                msg.channel.send('You are: ' + msg.author.username + '.');
                 break;
             case 'generate':
                 var field;
